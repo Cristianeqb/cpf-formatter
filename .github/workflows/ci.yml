@@ -50,16 +50,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout no repositorio
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Configurando o Node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      - name: Registrando o Nuget
+        run: npm config get registry
+
+      - name: Instalando dependencias NPM
         run: npm install
 
-      - name: Run tests
+      - name: Executanto testes
         run: npm test
