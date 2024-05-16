@@ -5,6 +5,7 @@
     "main": "src/app.js",
     "scripts": {
       "start": "node src/app.js",
+      "registry": "config delete registry",
       "test": "jest",
       "dev": "nodemon src/app.js"
     },

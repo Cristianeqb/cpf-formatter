@@ -59,7 +59,7 @@ jobs:
           node-version: '18'
 
       - name: Registrando o Nuget      
-        run: npm config set registry https://registry.npmjs.org/
+        run: npm registry
 
       - name: Instalando dependencias NPM
         run: npm install
