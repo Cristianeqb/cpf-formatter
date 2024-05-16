@@ -1,8 +1,8 @@
-# Aplicação de Formatação de CPF
+# Sobre o Projeto
 
-Esta aplicação em Node.js usa Express para criar uma rota que formata um CPF no padrão brasileiro.
+Aplicação simples para formatação de CPF no formato Brasileiro Padrão XXX.XXX.XXX-XX
 
-## Como Usar
+## Como Utilizar a aplicação
 
 1. Instale as dependências:
    ```bash
