@@ -16,7 +16,7 @@ describe('Teste de formatação de CPF', () => {
   });
 
   it('deve remover caracteres não numéricos antes de formatar', () => {
-    const cpfComMascara = '123.456.789-';
+    const cpfComMascara = '123.456.789-09';
     const resultado = formatterCPF(cpfComMascara);
     expect(resultado).toBe('123.456.789-09');
   });
